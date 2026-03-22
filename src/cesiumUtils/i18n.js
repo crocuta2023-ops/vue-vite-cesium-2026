@@ -56,7 +56,9 @@ export const lang = {
     'radar 1': 'radar 1',
     'radar 2': 'radar 2',
     satellite: 'satellite',
-    'sat survey area': 'sat survey area'
+    'sat survey area': 'sat survey area',
+    'View': 'View',
+    'Reset view': 'Reset view'
 
   },
   中文: {
@@ -107,7 +109,9 @@ export const lang = {
     'radar 1': '雷达1',
     'radar 2': '雷达2',
     satellite: '卫星',
-    'sat survey area': '卫星探测区域'
+    'sat survey area': '卫星探测区域',
+    'View': '视图',
+    'Reset view': '重置视图'
   }
 }
 
