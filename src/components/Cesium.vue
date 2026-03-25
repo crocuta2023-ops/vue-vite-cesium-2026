@@ -143,6 +143,10 @@ const destroyOther = () => {
 const btnClickHandler = (btn) => {
   const { id, active } = btn
   switch (id) {
+    case 'reset': {
+      back2Home()
+      break
+    }
     case 'billboard': {
       caller(active, () => {
         randomGenerateBillboards(viewer3D, 10000)

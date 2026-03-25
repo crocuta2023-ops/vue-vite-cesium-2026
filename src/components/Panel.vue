@@ -125,6 +125,15 @@ const btns = reactive([
     ]
   },
   {
+    label: $t('View'),
+    contents: [
+      {
+        id: 'reset',
+        label: $t('Reset view')
+      }
+    ]
+  },
+  {
     label: $t('Flight demonstration'),
     exclusive: true,
     contents: [
